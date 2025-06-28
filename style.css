@@ -1,0 +1,43 @@
+.font1 {
+    color: red;
+    font-family: Montserrat;
+}
+
+
+li {
+    display: inline-block;
+    font-family: Montserrat;
+    color: grey;
+    list-style: none;
+    font-size: 25px;
+}
+
+.Text {
+    font-size: 40px;
+}
+
+h4 {
+    font-family: times New Roman;
+    color: grey;
+}
+
+.para {
+    font-family: times New Roman;
+    color: grey;
+    font-size: 25px;
+}
+
+.para2 {
+    font-family: Montserrat;
+    color: blue;
+}
+
+.image {
+    position: absolute;
+    left: 90%;
+    width: 150px;
+}
+
+.FREE {
+    color: rgb(63, 28, 63)
+}
