@@ -272,32 +272,32 @@
       border: 0px;  
       left: 200px;
       padding: 20px;
-      bottom: 1970px;
+      bottom: 2150px;
     }
     .liner{
       position: relative;
-      bottom: 1850px;
+      bottom: 2050px;
     }
     .last{
       position: relative;
       width: 300px;
-      bottom: 1850px;
+      bottom: 2050px;
     }
     .fb{
       position: relative;
-      bottom: 1900px;
+      bottom: 2100px;
       right: -180px;
       display: inline-block;
     }.ig{
       position: relative;
-      bottom: 1915px;
+      bottom: 2120px;
       width: 200px;
       right: -200px;
       display: inline-block;
     }
     .twit{
       position: relative;
-      bottom: 1915px;
+      bottom: 2110px;
       width: 200px;
       right: -250px;
       display: inline-block;
