@@ -1,43 +1,304 @@
-.font1 {
-    color: red;
-    font-family: Montserrat;
-}
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+    body{
+      margin: 0;
+      padding: 0;
+        background-color: hsl(39, 84%, 62%);
+    }
+    .header > img{
+      margin-right: 160px;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .cartt{
+      position: relative;
+      width: 80px;
+    }
+    .banner1-msg{
+      font-family: "Rubik Mono One";
+      color: #d63031;
+      font-size: 50px;
+      width: 100px;
+      margin-left: 50px;
+    }
+    .chicken {
+      width: 700px;
+      position: relative;
+      bottom: 470px;
+      margin-left: 40px;
 
-
-li {
-    display: inline-block;
-    font-family: Montserrat;
-    color: grey;
-    list-style: none;
-    font-size: 25px;
-}
-
-.Text {
-    font-size: 40px;
-}
-
-h4 {
-    font-family: times New Roman;
-    color: grey;
-}
-
-.para {
-    font-family: times New Roman;
-    color: grey;
-    font-size: 25px;
-}
-
-.para2 {
-    font-family: Montserrat;
-    color: blue;
-}
-
-.image {
-    position: absolute;
-    left: 90%;
-    width: 150px;
-}
-
-.FREE {
-    color: rgb(63, 28, 63)
-}
+    }
+    .logo {
+      width: 400px;
+      position: relative;
+      bottom: 170px;
+      margin-left: 390px;
+    }
+    .best-seller > img{
+      width: 600px;
+      height: 450px;
+      position: relative;
+      top: 400px;
+      bottom: 100px;
+      left: -60px;
+      float: right;
+    }
+    .best-seller{
+      position: relative;
+      width: 700px;
+      height: 1200px;
+      bottom: 1300px;
+      float: right;
+      right: -80px;
+      border-radius: 15%;
+      background: #c83434
+    }
+    .btn > button{
+      position: relative;
+      font-size: 50px;
+      font-family:"Rubik";
+      background-color: #E68234;
+      color: white;
+      border-radius: 70px;
+      border: 0px;
+      top: -250px;
+      width: 400px;  
+      margin-left: 150px;
+      padding: 20px;
+    }
+    /* .food > img{ */
+      /* position: relative;
+      left: 190px;
+      margin-top: 20px;
+      display: inline;
+      width: 200px;
+      height: 200px; */
+    /* } */
+    .food22{
+      position: relative;
+      left: 350px;
+      margin-top: 20px;
+      display: inline;
+      width: 200px;
+      height: 200px;
+    }
+    .food1{
+      position: relative;
+      left: 250px;
+      margin-top: 20px;
+      display: inline;
+      width: 200px;
+      height: 200px;
+    }
+    .food{
+      position: relative;
+      margin-top: 100px;
+      width: 1000px;
+      padding: 40px;
+      border-radius: 100px;
+      margin-left: -180px;
+      bottom: 190px;
+      background: #DD9818;
+      }
+      .arrows{
+      position: relative;
+      display: inline-block;
+      left: 700px;
+      top: -420px;
+    }
+      .manok{
+      width: 350px;
+      position: relative;
+      top: -180px;
+      bottom: 0px;
+      left: 100px;
+      }
+      .discount{
+      position: relative;
+      width: 500px;
+      height: 250px;
+      border-radius: 50px;
+      bottom: 650px;
+      left: 1100px;
+      background: #FFCE0F;
+      }
+      .percent{
+      font-family: "Montserrat";
+      position: relative;
+      font-size: 35px;
+      left: 530px;
+      bottom: 850px;
+      float: right;
+      color:#C83434 ;
+      }
+      .fontt{
+      font-family: "Montserrat";
+      position: relative;
+      font-size: 35px;
+      left: 720px;
+      bottom: 850px;
+      float: right;
+      }
+      .fonttt{
+      font-family: "Montserrat";
+      position: relative;
+      font-size: 35px;
+      left: 850px;
+      bottom: 800px;
+      float: right;
+      }
+      .lechon > img{
+      position: relative;
+      width: 700px;
+      right: -400px;
+      bottom: 50px;
+      }
+      .lechon{
+      position: relative;
+      width: 1200px;
+      height: 1000px;
+      border-radius: 90px;
+      right: 350px;
+      bottom: 400px;
+      background: #C83434;
+      }
+      .banner3-msg{
+      position: relative;
+      font-family: "Rubik Mono One";
+      color: #d63031;
+      font-size: 50px;
+      }
+      .pwede{
+      position: relative;
+      left: 900px;
+      bottom: 1450px;
+      }
+      .pang{
+      position: relative;
+      left: 900px;
+      bottom: 1500px;
+      }
+      .logo-manok{
+      position: relative;
+      width: 450px;
+      left: 1100px;
+      bottom: 1690px;
+      }
+      .pulutan{
+      position: relative;
+      width: 600px;
+      left: 440px;
+      bottom: 1780px;
+      }
+      .textp{
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        font-family: "Montserrat";
+        font-size: 45px;
+        left: 930px;
+        bottom: 1750px;
+      }
+      .red{
+      position: relative;
+      list-style-type: none;
+      font-family: "Montserrat";
+      color: #d63031;
+      display: inline;
+      text-align: left;
+      font-size: 40px;
+      top: -1500px;
+      right: -100px;
+      }
+      .white
+      {
+      position: relative;
+      list-style-type: none;
+      font-family: "Montserrat";
+      color: #ffffff;
+      text-align: left;
+      font-size: 30px;
+      bottom: 705px;
+      }
+      .white1{
+      position: relative;
+      margin-left: 400px;
+      bottom: 970px;
+      }
+      .white2{
+      position: relative;
+      margin-left: 400px;
+      bottom: 955px;
+      }
+      .white3{
+      position: relative;
+      margin-left: 400px;
+      bottom: 940px;
+      }
+      .food2 > img{
+      position: relative;
+      margin-left: 272px;
+      bottom: -20px;
+      width: 200px;
+      height: 200px;
+      }
+      .food2{
+      position: relative;
+      width: 1000px;
+      padding: 40px;
+      bottom: 1900px;
+      left: 1000px;
+      height: 250px;
+      border-radius: 100px;
+      background:#DD9818 ;
+      }
+      .bttn > button{
+      position: relative;
+      font-size: 50px;
+      font-family:"Rubik";
+      background-color: #E68234;
+      color: white;
+      border-radius: 70px;
+      border: 0px;  
+      left: 200px;
+      padding: 20px;
+      bottom: 1970px;
+    }
+    .liner{
+      position: relative;
+      bottom: 1850px;
+    }
+    .last{
+      position: relative;
+      width: 300px;
+      bottom: 1850px;
+    }
+    .fb{
+      position: relative;
+      bottom: 1900px;
+      right: -180px;
+      display: inline-block;
+    }.ig{
+      position: relative;
+      bottom: 1915px;
+      width: 200px;
+      right: -200px;
+      display: inline-block;
+    }
+    .twit{
+      position: relative;
+      bottom: 1915px;
+      width: 200px;
+      right: -250px;
+      display: inline-block;
+    }
+    
+    .arrows2{
+      position: relative;
+      width: 150px;
+      bottom: 2590px;
+      left: 1080px;
+    }
