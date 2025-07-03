@@ -225,35 +225,42 @@
       }
       .white1{
       position: relative;
-      margin-left: 400px;
+      margin-left: 300px;
       bottom: 970px;
       }
       .white2{
       position: relative;
-      margin-left: 400px;
+      margin-left: 300px;
       bottom: 955px;
       }
       .white3{
       position: relative;
-      margin-left: 400px;
+      margin-left: 300px;
       bottom: 940px;
       }
       .food2 > img{
       position: relative;
-      margin-left: 272px;
+      margin-left: 242px;
       bottom: -20px;
       width: 200px;
       height: 200px;
       }
       .food2{
       position: relative;
-      width: 1000px;
+      width: 1800px;
       padding: 40px;
       bottom: 1900px;
-      left: 1000px;
+      left: 700px;
       height: 250px;
       border-radius: 100px;
       background:#DD9818 ;
+      }
+      .last-na{
+      position: relative;
+      margin-left: 1250px;
+      bottom: 2170px;
+      width: 200px;
+      height: 200px;
       }
       .bttn > button{
       position: relative;
@@ -295,10 +302,9 @@
       right: -250px;
       display: inline-block;
     }
-    
     .arrows2{
       position: relative;
-      width: 150px;
-      bottom: 2590px;
-      left: 1080px;
+      width: 130px;
+      bottom: 2780px;
+      left: 790px;
     }
